@@ -158,27 +158,61 @@ header {
 
 .shop-container .box {
   flex: 1 1 10rem;
-  background: var(--main-color);
   padding: 20px;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
   margin-top: 3rem;
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+  display: flex;
+  flex-direction: column;
 }
 
 .shop-container .box .box-img {
-  width: 150px;
-  height: 150px;
-  margin-top: -100px;
+  width: 100%;
+  height: 250px; /* Adjusted height for the image */
+  overflow: hidden; /* Ensure the image doesn't overflow the container */
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .shop-container .box .box-img img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
+}
+
+.shop-container .box .box-content {
+  flex-grow: 1; /* Allow content to grow vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space items evenly */
+}
+
+.shop-container .box .box-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.shop-container .box .box-description {
+  font-size: 1rem;
+  color: #555; /* Adjusted color for description */
+  margin-bottom: 20px;
+}
+
+.shop-container .box .box-button {
+  width: 50%;
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: white;
+  text-align: center;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-container .box .box-button:hover {
+  background-color: #ff7f50; /* Hover color */
 }
 
 .stars {
@@ -186,29 +220,30 @@ header {
 }
 
 .shop-container .box .stars .bx {
-  color: #ebdbc8;
+  color: black;
 }
 
 .shop-container .box h2 {
-  color: #ebdbc8;
+  color: black;
   font-size: 1.2rem;
 }
 
 .shop-container .box span {
-  color: #ebdbc8;
+  color: black;
   font-size: 1.4rem;
   font-weight: 500;
   margin: 0.2rem 0 0.5rem;
 }
 
 .box .btn {
-  border: 2px solid #ebdbc8;
-  color: #ebdbc8;
+  border: 2px solid black;
+  color: black;
+  width: 150px;
 }
 
 .box .btn:hover {
-  background: #ebdbc8;
-  color: var(--second-color);
+  background: black;
+  color: var(--main-color);
 }
 
 .container {
