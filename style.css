@@ -133,6 +133,11 @@ header {
   background: var(--second-color);
 }
 
+.btn-order {
+  margin: 50px 0;
+  width: 200px;
+}
+
 .heading {
   text-align: center;
   text-transform: uppercase;
@@ -277,7 +282,6 @@ header {
 .about {
   display: flex;
   flex-wrap: wrap;
-  background: #ebdbc8;
   gap: 1.5rem;
 }
 
