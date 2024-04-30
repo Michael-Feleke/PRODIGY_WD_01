@@ -15,6 +15,10 @@
   --second-color: #1e3932;
 }
 
+section {
+  padding: 50px 10%;
+}
+
 img {
   width: 100%;
 }
@@ -30,7 +34,7 @@ header {
   justify-content: space-between;
   background: #fff;
   box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
-  padding: 15px 10px;
+  padding: 15px 30px;
   transition: 0.2s;
 }
 
@@ -83,25 +87,23 @@ header {
 }
 
 .home-img {
-  flex: 1 1 17rem;
-}
-
-.home-img {
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 266px;
+  height: 266px;
   background-color: rgb(250, 204, 21);
-  border-radius: 9999px;
-  display: flex;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle shadow */
 }
 
 .home-img img {
-  width: 208px;
-  height: 208px;
-  object-cover: fit;
-  border-radius: 9999px;
-  border-width: 8px;
-  border-color: white;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid white; /* Simplified border shorthand */
 }
 
 .home-text span {
