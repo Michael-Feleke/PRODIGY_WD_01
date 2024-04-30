@@ -10,3 +10,7 @@
   list-style: none;
   scroll-behavior: smooth;
 }
+:root {
+  --main-color: #008148;
+  --second-color: #1e3932;
+}
