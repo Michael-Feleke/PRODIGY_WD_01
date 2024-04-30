@@ -100,6 +100,40 @@ header {
   }
 }
 
+.home-text span {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--second-color);
+}
+
+.home-text h1 {
+  font-size: 3.2rem;
+  color: var(--main-color);
+  font-weight: bolder;
+}
+
+.home-text h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--second-color);
+  margin: 0.5rem 0 1.4rem;
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 7px 16px;
+  border: 2px solid var(--second-color);
+  border-radius: 40px;
+  color: var(--second-color);
+  font-weight: 500;
+}
+
+.btn:hover {
+  color: #fff;
+  background: var(--second-color);
+}
+
 .heading {
   text-align: center;
   text-transform: uppercase;
