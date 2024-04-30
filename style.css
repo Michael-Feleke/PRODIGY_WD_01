@@ -106,13 +106,6 @@ header {
   border: 8px solid white; /* Simplified border shorthand */
 }
 
-.home-text span {
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: var(--second-color);
-}
-
 .home-text h1 {
   font-size: 3.2rem;
   color: var(--main-color);
@@ -136,7 +129,7 @@ header {
 }
 
 .btn:hover {
-  color: #fff;
+  color: var(--main-color);
   background: var(--second-color);
 }
 
