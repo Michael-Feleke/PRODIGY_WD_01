@@ -211,3 +211,31 @@ header {
   background: #ebdbc8;
   color: var(--second-color);
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.delivery-img,
+.app-img {
+  flex: 1 1 21rem;
+}
+
+.delivery-text,
+.app-text {
+  flex: 1 1 21rem;
+}
+
+.delivery-text h2,
+.app-text h2 {
+  font-size: 1.2rem;
+  color: var(--second-color);
+}
+.delivery-text p,
+.app-text p {
+  margin: 0.5rem 0 1rem;
+  text-align: justify;
+}
