@@ -334,22 +334,6 @@ header {
   align-items: center;
 }
 
-.social a {
-  font-size: 27px;
-  margin: 0.5rem;
-}
-
-.social a .bx {
-  padding: 5px;
-  color: #fff;
-  background: #000000;
-  border-radius: 50%;
-}
-
-.social a .bx:hover {
-  background: var(--main-color);
-}
-
 .links {
   margin: 1rem 0 1rem;
 }
